@@ -97,6 +97,7 @@ $ python -m pygaggle.run.evaluate_passage_reader --task wikipedia --retriever sc
 `--topk-em`: How many passage selected as the reader input.
 
 `--device`:  cuda or cuda:1, cuda:2...
+The above is the operation of the extractive reader. For the operation of the generator reader, see [here](https://github.com/XY2323819551/QCER_GenerateReader)
 
 ### Generating Expanded Query
 
