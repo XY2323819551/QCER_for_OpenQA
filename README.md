@@ -144,5 +144,4 @@ $ python -m reranking.rerank --path-data Path to initial retrieval results which
 
 ### Example
 
-We provide an example based on the NQ dataset that shows how to use these commands. We have written these commands in `command.md`.(We  will upload this file later.)
-
+We provide an example based on the NQ dataset that shows how to use these commands. We have written these commands in `command.md`.
