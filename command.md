@@ -2,7 +2,7 @@
 
 ### Passage retrieval 和Passage reading实验
 
-进入项目目录
+首先进入检索项目目录
 
 ```
 cd XX/OCER/retrieval

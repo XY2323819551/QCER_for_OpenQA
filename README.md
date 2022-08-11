@@ -6,8 +6,11 @@ This repo provides the code and resources of QCER.
 Humans are accustomed to associating the prior knowledge with the text in a query autonomously when doing question-answering, but for a machine that lack cognition and common sense, the query is just a simple sentence of some words. Although we can enrich semantic information of query through language representation or query expansion, the information contained in the query is still not enough. So we propose an effective passage retrieval method named Query Context Expansion Retrieval (QCER) for Open-Domain Question Answering (OpenQA), which associates the query with the domain information by adding contextual association information to the query. We implement QCER by appending reader predictions (theoretically present in candidate paragraphs) as the contextual information of the query to the initial query. QCER with sparse representations (BM25) can improve retrieval efficiency and accelerate the convergence of query, so that reader can find the desired answer as soon as possible by using fewer relevant passages. Moreover, QCER can be easily combined with DPR to achieve even better performance as sparse and dense representations are often complementary. Remarkably, we demonstrated that QCER achieves state-of-the-art performance for three tasks of passage retrieval, reading, and reranking on Natural Questions and TriviaQA datasets under the extractive QA setup.
 
 ## Installation
-
-We provide  `environment.yml`. You can use  `conda env create -f environment.yml && conda activate envname`(envname is on the first line of the environment.yml file, ours name is QCER)
+```
+conda create -n QCER-test python=3.8
+pip install torch==1.8.1+cu111 -f https://download.pytorch.org/whl/torch_stable.html
+pip install -r requirements.txt
+```
 
 ## Data
 
