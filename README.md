@@ -1,4 +1,3 @@
-# QCER_for_OpenQA
 # Query Context Expansion Retrieval (QCER)
 
 This repo provides the code and resources of QCER.
