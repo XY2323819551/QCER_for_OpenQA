@@ -38,3 +38,4 @@ class ArgumentParserBuilder(object):
         for args, kwargs in options:
             self.parser.add_argument(*args, **kwargs)
         return self.parser
+
