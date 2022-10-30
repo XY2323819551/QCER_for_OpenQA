@@ -115,7 +115,7 @@ $ python -m scripts.generate_expanded_query --path-topics Path to initial query 
 
 `--settings`: For sparse retrieval results, we set `"GAR Fusion, beta=0.46, gamma=0.308"` for NQ and `"GAR Fusion, beta=0.78, gamma=0.093"` for Trivia respectively. For hybrid retrieval results, we set `"GAR Fusion, beta=0.32, gamma=0.1952"` for NQ and `"GAR Fusion, beta=0.76, gamma=0.152"` for Trivia respectively.
 
-### Manual Hybird
+### Manual hybrid
 
 Combining the new sparse search results with the original dense search results manually. 
 
